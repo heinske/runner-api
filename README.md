@@ -1,5 +1,5 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://www.flaticon.com/svg/static/icons/svg/606/606712.svg" width="400"></a></p>
-## Runner Api
+<h1>Runner Api</h1>
 
 ## 1. Pré Requisitos de Instalação
 
@@ -74,7 +74,7 @@ Obs: Os comandos acima são aplicáveis apenas para ambiente de desenvolvimento.
 
 #### 5.6 Relatório por Idade
 
-**Método::** GET 
+**Método:** GET 
 **URL:** http://localhost:8080/api/corrida/relatorio/idade
 
 
