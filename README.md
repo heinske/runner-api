@@ -18,6 +18,9 @@ Caso não seja executado automaticamente, entrar no container **runner-app** e e
 
     php composer.phar install
     php artisan migrate
+    chmod 777 -R storage
+    
+Obs: Os comandos acima são aplicáveis apenas para ambiente de desenvolvimento. Em ambiente de homologação e produção ficaria com o código fonte dentro da imagem e com as permissões corretas aplicadas. 
 
 
 ## 4. Execução dos testes
