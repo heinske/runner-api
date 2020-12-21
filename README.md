@@ -29,7 +29,7 @@ Caso não seja executado automaticamente, entrar no container **runner-app** e e
 #### 5.1 Inclusão de corredor
 
 **Método::** POST 
-**URL: ** http://localhost:8080/api/corredor
+**URL:** http://localhost:8080/api/corredor
 **Parâmetros de entrada:** 
 
 - nome
@@ -39,7 +39,7 @@ Caso não seja executado automaticamente, entrar no container **runner-app** e e
 #### 5.2 Inclusão de prova
 
 **Método::** POST 
-**URL: ** http://localhost:8080/api/prova
+**URL:** http://localhost:8080/api/prova
 **Parâmetros de entrada:** 
 
 - data
@@ -48,7 +48,7 @@ Caso não seja executado automaticamente, entrar no container **runner-app** e e
 #### 5.3 Inclusão de corrida (corredor x prova)
 
 **Método::** POST 
-**URL: ** http://localhost:8080/api/corrida
+**URL:** http://localhost:8080/api/corrida
 **Parâmetros de entrada:** 
 
 - corredor_id
@@ -57,7 +57,7 @@ Caso não seja executado automaticamente, entrar no container **runner-app** e e
 #### 5.4 Inclusão de resultados da corrida
 
 **Método::** POST 
-**URL: ** http://localhost:8080/api/corrida/ID_CORRIDA/resultado
+**URL:** http://localhost:8080/api/corrida/ID_CORRIDA/resultado
 **Parâmetros de entrada:** 
 
 - id
@@ -72,6 +72,6 @@ Caso não seja executado automaticamente, entrar no container **runner-app** e e
 #### 5.6 Relatório por Idade
 
 **Método::** GET 
-**URL: ** http://localhost:8080/api/corrida/relatorio/idade
+**URL:** http://localhost:8080/api/corrida/relatorio/idade
 
 
